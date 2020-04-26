@@ -89,7 +89,7 @@ The script will stop running if your computer falls asleep. You can adjust your 
 
 
 
-## 10) Once you're notified, quickly select a slot an finish checking out because available slots are snagged almost instantly.
+## 10) Once you're notified, quickly select a slot and finish checking out because available slots are snagged almost instantly.
 
 
 
@@ -102,7 +102,7 @@ The script will stop running if your computer falls asleep. You can adjust your 
 
 
 ## Compatibility
-For Whole Foods you will need to manually click on “Continue” for the "Substitution preferences" Page that comes up after the "Before you checkout" Page. The script is not fully compatible with Whole Foods orders.  I'm currently on the waiting list for Ordering from Whole Foods, once I gain access I will continue working on the support for it, Prime Now compatibility may be added that same time. 
+For Whole Foods you will need to manually click on “Continue” for the "Substitution preferences" Page that comes up after the "Before you checkout" Page. The script is not fully compatible with Whole Foods orders.  I'm currently on the waiting list for Ordering from Whole Foods, once I gain access I will continue working on the support for it, Prime Now compatibility may be added that the same time. 
 
 **Before using this tool**, ensure that your checkout page looks **exactly** like the examples in the _Compatible_ section below.
 This tool currently only works for some regions because Amazon's checkout pages seem to vary based on your location and I designed the tool based on the page I see in my region. 
