@@ -1,23 +1,26 @@
 
 
 #### Quick Links
+- [Spanish Instructions/Instrucciones en Español](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/README_es.md)
 - [Download & Instructions](#Installation)
 - [Inspiration for this tool](#Inspiration-for-this-tool)
-- [Disclaimer about 'disappearing' slots](#disclaimer-about-disappearing-slots)
 - [Questions/feedback/issues](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/issues)
 - [Track bugs/enhancements](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/projects)
+- [Notice about 'disappearing' delivery windows](#notice-about-disappearing-delivery-windows)
 - [Supporting me/Donations](#supporting-medonations)
 
 # Amazon Fresh/Whole Foods delivery Slot Finder for Windows and Mac
-Automated script for finding available delivery slots for Amazon.com's Fresh delivery and Amazon Whole Foods services that is compatible with multiple OS and Browsers. Read the [Compatibility](#compatibility) section below to make sure the tool will work for you, also bookmark this page so you easily come back to it.
+Automated script for finding available delivery windows for Amazon.com's Fresh delivery and Amazon Whole Foods services that is compatible with multiple OS and Browsers. Bookmark this page so you can easily come back to it.
 
-## DISCLAIMER about "disappearing" slots
-No guarantee that slots will be found and/or that slots will work. Often you will select a slot and by the time you click the continue button the slot will not be available, when that happens the page refreshes and if there is another slot still available you will get another opportunity to try and get the available slot. These disappearing slots are very common and are unfortunately in Amazon's control, not mine.  Eventually a slot should work. Wishing you resilience and hope! Feel free to post concerns in the [Issues](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/issues) section.
-
+## New Features
+* #### New Support - added 4/29/20
+  * Enabled Support for Multiple Languages and Amazon Pages from Multiple Countries.
+  * Note: Only Tested with Pages in the United States.
+  
 ## Installation
 In order to make this tool as compatible as possible it's built on top of (Tampermonkey® by Jan Biniok) the most popular userscript manager.
 
-1. Install the Tampermonkey® userscript manager on your browser, you just need to follow the Video instructions provide at Tampermonkey® [here](https://www.tampermonkey.net/)
+1. Install the Tampermonkey® userscript manager on your browser, just follow the instructions provide at Tampermonkey® [here](https://www.tampermonkey.net/)
 
 2. Once installed you will see an icon like this on your browser's toolbar
 
@@ -64,23 +67,23 @@ The script will stop running if your computer falls asleep. You can adjust your 
 
 
 
-## 5) The script will automatically click on continue for the "Before you checkout" Page. This is done in case your checkout session expires while waiting for an available Slot. This enables the script to navigate back to the "Schedule your order" Page to wait for an available slot.
+## 5) The script will automatically click on continue for the "Before you checkout" Page. This is done in case your checkout session expires while waiting for an available Slot. This enables the script to navigate back to the "Schedule your order" Page to wait for an available delivery window.
 ![FreshChkOut3](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut3.JPG)
 
 
 
 ## 6) You should be taken to the "Schedule your order" Page. Here the script will wait and automatically refresh the page until there is an available delivery window.
 ![FreshChkOut4](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut4.JPG)
-### Note: If it turns out that there is a slot available the alert will instantly start sounding and you can select the delivery slot and continue check out.
+### Note: If it turns out that there is an available delivery window the alert will instantly start sounding and you can select the delivery window and continue the check out.
 
 
 
-## 7) You should see this countdown bar, it shows the time left in seconds until the page is automatically refreshed. It will do this until a slot is found.
+## 7) You should see this countdown bar, it shows the time left in seconds until the page is automatically refreshed. It will do this until a delivery window is found.
 ![FreshChkOut5](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut5.JPG)
 
 
 
-## 8) Turn up the volume to hear the notification when a slot is found
+## 8) Turn up the volume to hear the notification when a delivery window is found
 
 
 
@@ -89,7 +92,7 @@ The script will stop running if your computer falls asleep. You can adjust your 
 
 
 
-## 10) Once you're notified, quickly select a slot and finish checking out because available slots are snagged almost instantly.
+## 10) Once you're notified, quickly select a delivery window and finish checking out because available delivery windows are snagged almost instantly.
 
 
 
@@ -102,11 +105,14 @@ The script will stop running if your computer falls asleep. You can adjust your 
 
 
 ## Compatibility
-For Whole Foods you will need to manually click on “Continue” for the "Substitution preferences" Page that comes up after the "Before you checkout" Page. The script is not fully compatible with Whole Foods orders.  I'm currently on the waiting list for Ordering from Whole Foods, once I gain access I will continue working on the support for it, Prime Now compatibility may be added that the same time. 
+For Whole Foods you will need to manually click on “Continue” for the "Substitution preferences" Page that comes up after the "Before you checkout" Page. The script is not fully compatible with Whole Foods orders.  I'm currently on the waiting list for Ordering from Whole Foods, once I gain access I will continue working on the support for it, Prime Now compatibility may be added at the same time. 
 
 **Before using this tool**, ensure that your checkout page looks **exactly** like the examples in the _Compatible_ section below.
 This tool currently only works for some regions because Amazon's checkout pages seem to vary based on your location and I designed the tool based on the page I see in my region. 
 If your checkout page doesn't look like the examples in the _Compatible_ or _Incompatible_ sections below, this tool may still work for you but no guarantees.
+
+## Notice about "disappearing" delivery windows
+No guarantee that delivery windows will be found and/or that delivery windows will work. Often you will select a delivery window and by the time you click the continue button the delivery window will not be available, when that happens the page refreshes and if there is another delivery window still available you will get another opportunity to try and get the available delivery window. These disappearing delivery windows are very common and are unfortunately in Amazon's control, not mine.  Eventually a slot should work. Wishing you resilience and hope! Feel free to post concerns in the [Issues](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/issues) section.
 
 ### Compatible
 These are sample screenshots for delivery to a New Jersey address
@@ -131,4 +137,3 @@ As The Coronavirus 2019 pandemic caused a surge in demand for grocery delivery s
 
 ## Supporting me/Donations
 Thank you so much for wanting to support me! I don't want anything in return for this tool - I'm just happy to be hearing all the stories about how this has helped people, especially those in need. 
-
