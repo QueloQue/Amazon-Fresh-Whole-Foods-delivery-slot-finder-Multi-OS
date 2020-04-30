@@ -12,9 +12,9 @@ Script automatizado para encontrar ventanas de entrega de entrega disponibles pa
 
 ## Nuevas características
 * #### Nuevo soporte - agregado 4/29/20
-   * Soporte habilitado para múltiples idiomas y páginas de Amazon de múltiples países.
-   * Nota: Solo probado con páginas en los Estados Unidos.
-
+  * Soporte habilitado para múltiples idiomas y páginas de Amazon de múltiples países.
+  * Nota: Solo probado con páginas en los Estados Unidos.
+  
 ## Instalación
 Para que esta herramienta sea lo más compatible posible, está construida sobre (Tampermonkey® por Jan Biniok) el administrador de script de usuario más popular.
 
@@ -22,19 +22,19 @@ Para que esta herramienta sea lo más compatible posible, está construida sobre
 
 2. Una vez instalado, verá un icono como este en la barra de herramientas de su navegador
 
-![TampermonkeyIcon](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart5.JPG)
+![TampermonkeyIcon](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart5.JPG)
 
 3. Ahora necesita instalar el script "Delivery Slot Finder" a través de este enlace [aquí](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/raw/master/kLk-Delivery-Slot-Finder.user.js)
 
 4. Haga clic en "Instalar" cuando vea esta pantalla.
-![ScriptInstall](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart6.JPG)
+![ScriptInstall](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart6.JPG)
 
 5. Abra una nueva pestaña y visite Amazon.com, vaya a su carrito principal de Amazon haciendo clic en el ícono del carrito en la parte superior derecha de la página.
 
- ![AmazonCartIcon](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart1.JPG)
+ ![AmazonCartIcon](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart1.JPG)
 
 6. Verá un nuevo botón en la parte superior de la página. El botón debe estar "Apagado", por ahora déjelo Apagado.
-![ScriptIcons](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart2.JPG)
+![ScriptIcons](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart2.JPG)
 
 ### Ha instalado correctamente el script "Delivery Slot Finder".
 ### Notas:
@@ -51,34 +51,34 @@ El script dejará de ejecutarse si su computadora se queda dormida. Puede ajusta
 
 
 ## 1) Llene su carrito de Amazon Fresh con su pedido, cuando esté listo, haga clic en el ícono del carrito en la parte superior derecha de la página.
-![AmazonCartIcon](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart1.JPG)
+![AmazonCartIcon](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart1.JPG)
 
 
 
 ## 2) Verá el nuevo botón en la parte superior de la página. El botón debe estar "Apagado".
-![FreshChkOut1](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut1.JPG)
+![FreshChkOut1](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut1.JPG)
 
 ## 3) Haga clic en el botón Apagado, esto actualizará la página y el botón ahora dirá "ON" y verá otro botón con "Amazon Fresh". Use este botón para seleccionar si va a realizar el pago de Amazon Fresh o Whole Foods.
-![ScriptOnIcons](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart3.JPG)
+![ScriptOnIcons](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart3.JPG)
 
 ## 4) En este ejemplo, vamos a realizar el pedido con Amazon Fresh. Haga clic en el botón "Pagar el carrito de Amazon Fresh".
-![FreshChkOut2](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut2.JPG)
+![FreshChkOut2](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut2.JPG)
 
 
 
 ## 5) El script automáticamente hará clic en continuar para la página "Antes de pagar". Esto se hace en caso de que su sesión de pago caduque mientras espera una ranura disponible. Esto permite que el script vuelva a la página "Programe su pedido" para esperar un espacio disponible.
-![FreshChkOut3](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut3.JPG)
+![FreshChkOut3](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut3.JPG)
 
 
 
 ## 6) Debería ir a la página "Programe su pedido". Aquí el script esperará y actualizará automáticamente la página hasta que haya una ventana de entrega disponible.
-![FreshChkOut4](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut4.JPG)
+![FreshChkOut4](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut4.JPG)
 ### Nota: Si resulta que hay un espacio disponible, la alerta comenzará a sonar instantáneamente y puede seleccionar el espacio de entrega y continuar con el pago.
 
 
 
 ## 7) Debería ver esta barra de cuenta regresiva, muestra el tiempo restante en segundos hasta que la página se actualice automáticamente. Hará esto hasta que se encuentre un espacio.
-![FreshChkOut5](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut5.JPG)
+![FreshChkOut5](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut5.JPG)
 
 
 
@@ -87,7 +87,7 @@ El script dejará de ejecutarse si su computadora se queda dormida. Puede ajusta
 
 
 ## 9) Una vez que se encuentra una ventana de entrega, el script generará una alerta y la barra de cuenta regresiva desaparecerá.
-![FreshChkOut6](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut6.JPG)
+![FreshChkOut6](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut6.JPG)
 
 
 
@@ -117,10 +117,10 @@ No hay garantía de que se encuentren ventanas de entrega y / o que las ventanas
 Estas son capturas de pantalla de muestra para enviar a una dirección de Nueva Jersey
 
 #### Amazon Fresh
-![Amazon Fresh](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut7.JPG)
+![Amazon Fresh](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut7.JPG)
 
 #### Alimentos integrales
-![Whole Foods](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut7.JPG)
+![Whole Foods](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut7.JPG)
 
 
 ### Incompatible

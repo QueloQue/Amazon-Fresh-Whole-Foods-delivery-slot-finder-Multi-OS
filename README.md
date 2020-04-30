@@ -1,5 +1,3 @@
-
-
 #### Quick Links
 - [Spanish Instructions/Instrucciones en Español](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/README_es.md)
 - [Download & Instructions](#Installation)
@@ -24,19 +22,19 @@ In order to make this tool as compatible as possible it's built on top of (Tampe
 
 2. Once installed you will see an icon like this on your browser's toolbar
 
-![TampermonkeyIcon](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart5.JPG)
+![TampermonkeyIcon](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart5.JPG)
 
 3. Now you need to install the "Delivery Slot Finder" script via this link [here](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/raw/master/kLk-Delivery-Slot-Finder.user.js)
 
 4. Click "Install" when you see this screen.
-![ScriptInstall](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart6.JPG)
+![ScriptInstall](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart6.JPG)
 
 5. Open a new tab and visit Amazon.com, go to your Amazon Main cart by clicking the Cart Icon on the upper right side of the page.
 
- ![AmazonCartIcon](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart1.JPG)
+ ![AmazonCartIcon](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart1.JPG)
 
 6. You will see a new button at the top of the page. The button should be "Off", for now please leave it Off.
-![ScriptIcons](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart2.JPG)
+![ScriptIcons](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart2.JPG)
 
 ### You have successfully install the "Delivery Slot Finder" Script.
 ### Notes:
@@ -53,33 +51,33 @@ The script will stop running if your computer falls asleep. You can adjust your 
 
 
 ## 1) Fill your Amazon Fresh cart with your order, when ready click the Cart Icon on the upper right side of the page.
-![AmazonCartIcon](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart1.JPG)
+![AmazonCartIcon](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart1.JPG)
 
 
 
 ## 2) You will see the new button at the top of the page. The button should be "Off". 
-![FreshChkOut1](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut1.JPG)
+![FreshChkOut1](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut1.JPG)
 
-## 3) Click on the Off Button, this will refresh the page and the button will now say "ON" and you will see another button with "Amazon Fresh". Use this button to select if you are going to perform checkout for Amazon Fresh or Whole Foods.![ScriptOnIcons](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/AmzCart3.JPG)
+## 3) Click on the Off Button, this will refresh the page and the button will now say "ON" and you will see another button with "Amazon Fresh". Use this button to select if you are going to perform checkout for Amazon Fresh or Whole Foods.![ScriptOnIcons](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/AmzCart3.JPG)
 
 ## 4) On this example we are going to place the order using Amazon Fresh. Click on the "Checkout Amazon Fresh Cart" button.
-![FreshChkOut2](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut2.JPG)
+![FreshChkOut2](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut2.JPG)
 
 
 
 ## 5) The script will automatically click on continue for the "Before you checkout" Page. This is done in case your checkout session expires while waiting for an available Slot. This enables the script to navigate back to the "Schedule your order" Page to wait for an available delivery window.
-![FreshChkOut3](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut3.JPG)
+![FreshChkOut3](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut3.JPG)
 
 
 
 ## 6) You should be taken to the "Schedule your order" Page. Here the script will wait and automatically refresh the page until there is an available delivery window.
-![FreshChkOut4](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut4.JPG)
+![FreshChkOut4](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut4.JPG)
 ### Note: If it turns out that there is an available delivery window the alert will instantly start sounding and you can select the delivery window and continue the check out.
 
 
 
 ## 7) You should see this countdown bar, it shows the time left in seconds until the page is automatically refreshed. It will do this until a delivery window is found.
-![FreshChkOut5](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut5.JPG)
+![FreshChkOut5](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut5.JPG)
 
 
 
@@ -88,7 +86,7 @@ The script will stop running if your computer falls asleep. You can adjust your 
 
 
 ## 9) Once a Delivery Window is found, the script will generate an alert and the countdown bar will disappear.
-![FreshChkOut6](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut6.JPG)
+![FreshChkOut6](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut6.JPG)
 
 
 
@@ -118,10 +116,10 @@ No guarantee that delivery windows will be found and/or that delivery windows wi
 These are sample screenshots for delivery to a New Jersey address
 
 #### Amazon Fresh
-![Amazon Fresh](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut7.JPG)
+![Amazon Fresh](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut7.JPG)
 
 #### Whole Foods
-![Whole Foods](https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/blob/master/images/FreshChkOut7.JPG)
+![Whole Foods](https://raw.githubusercontent.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS/master/images/FreshChkOut7.JPG)
 
 
 ### Incompatible
