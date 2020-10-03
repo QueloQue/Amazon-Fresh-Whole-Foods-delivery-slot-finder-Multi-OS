@@ -15,15 +15,17 @@
 // @name         Delivery Slot Finder
 // @namespace    https://github.com/QueloQue/Amazon-Fresh-Whole-Foods-delivery-slot-finder-Multi-OS
 // @author       juan.valdez.ny@hotmail.com
-// @version      1.1
+// @version      1.2
 // @description  Automated script for finding available delivery slots for Amazon's Whole Foods delivery and Amazon Fresh services that is compatible with multiple OS and Browsers
 // @grant        GM_log
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @include      https://www.amazon.*/*cart/fresh*
 // @include      https://www.amazon.*/*cart/localmarket*
+// @include      https://primenow.amazon.*/cart*
 // @include      https://www.amazon.*/*gp/cart*
 // @include      https://www.amazon.*/*alm/byg*
+// @include      https://www.amazon.*/alm/subs*
 // @include      https://www.amazon.*/*gp/yourstore*
 // @include      https://www.amazon.*/*gp/buy/shipoptionselect*
 // @require      https://code.jquery.com/jquery-3.0.0-alpha1.min.js
@@ -41,7 +43,10 @@ if(GM_getValue("SlotFinder") == 1){var elOnChckBx = " checked"}else{var elChckBx
 const CheckOUtBttn = $("input.a-button-input");
 const AmzFrshCrtPage = document.querySelector("div#localmarket-full-cart");
 const AmzFrshChkoUtbTtn = document.querySelector("#sc-alm-buy-box-ptc-button-QW1hem9uIEZyZXNo");
+const AmzWhlsFdChkoUtbTtn = document.querySelector("#sc-alm-buy-box-ptc-button-VUZHIFdob2xlIEZvb2Rz");
 const CheckOUtBttnCtnlNk = document.querySelector("a[name='proceedToCheckout']");
+const SubCtnBttnlNk = document.querySelector("span#subsContinueButton");
+console.log($("#a-autoid-8"));
 const SchdlYrOrdrPg = document.getElementById("shipoption-select");
 const AmzYourStr = document.querySelector("div#ys-center > div.welcome-msg");
 
@@ -55,7 +60,7 @@ var elSettingevrywr = 0;
 
 if (elSettingevrywr == 0){
     console.log(schdlOrderText);
-    if((CheckOUtBttnCtnlNk !== null||SchdlYrOrdrPg !== null)){$('h1').eq(0).before(eLStyle + eLOnToggldBttnCode)};
+    if((CheckOUtBttnCtnlNk !== null||SchdlYrOrdrPg !== null||SubCtnBttnlNk != null)){$('h1').eq(0).before(eLStyle + eLOnToggldBttnCode)};
     if(AmzFrshCrtPage !== null){$(AmzFrshCrtPage).before(eLStyle + eLOnToggldBttnCode)};
     $("div#ys-center > div.welcome-msg").before(eLStyle + eLOnToggldBttnCode);
 };
@@ -108,10 +113,20 @@ else if (AmzFrshChkoUtbTtn !== null){
     var AmzFrshChkoUtbTtlNk = AmzFrshChkoUtbTtn.querySelector("input[name='proceedToALMCheckout-QW1hem9uIEZyZXNo']");
     if(AmzFrshCrtPage !== null){console.log(AmzFrshChkoUtbTtnTxt);setTimeout(function(){if (GM_getValue("SlotFinder") == 1){AmzFrshChkoUtbTtlNk.click();}}, 3000);};
 }
+else if (AmzWhlsFdChkoUtbTtn !== null){
+    var AmzWhlsFdChkoUtbTtnTxt = $(AmzWhlsFdChkoUtbTtn.querySelector("span.a-button-text")).text().replace('\n','').trim();
+    var AmzWhlsFdChkoUtbTtlNk = AmzWhlsFdChkoUtbTtn.querySelector("input[name='proceedToALMCheckout-VUZHIFdob2xlIEZvb2Rz']");
+    console.log(AmzWhlsFdChkoUtbTtlNk);
+    if(AmzFrshCrtPage !== null){console.log(AmzWhlsFdChkoUtbTtnTxt);setTimeout(function(){if (GM_getValue("SlotFinder") == 1){AmzWhlsFdChkoUtbTtlNk.click();}}, 3000);};
+}
 //Continue to Chart form Before you checkout page
 else if (CheckOUtBttnCtnlNk !== null){
     var CheckOUtBttnCtnTxt = $(CheckOUtBttnCtnlNk).text().replace('\n','').trim();
-    console.log($(CheckOUtBttnCtnlNk).text().replace('\n','').trim());console.log(CheckOUtBttnCtnlNk);setTimeout(function(){if (GM_getValue("SlotFinder") == 1){CheckOUtBttnCtnlNk.click();}}, 3000);
+    console.log(CheckOUtBttnCtnTxt);console.log(CheckOUtBttnCtnlNk);setTimeout(function(){if (GM_getValue("SlotFinder") == 1){CheckOUtBttnCtnlNk.click();}}, 3000);
+}
+else if (SubCtnBttnlNk !== null){
+    var SubCtnBttnTxt = $(SubCtnBttnlNk).text().replace('\n','').trim();
+    console.log(SubCtnBttnTxt);console.log(SubCtnBttnlNk);setTimeout(function(){if (GM_getValue("SlotFinder") == 1){SubCtnBttnlNk.click();}}, 3000);
 }
 //Restart Checkout sequence if Amazon redirects to YourStore page
 else if (AmzYourStr !== null){
